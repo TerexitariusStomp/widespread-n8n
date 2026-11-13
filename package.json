@@ -1,0 +1,17 @@
+{
+  "name": "n8n-nodes-widespread",
+  "version": "0.1.0",
+  "description": "n8n community node for the Widespread protocol — verified-work bounty discovery",
+  "license": "MIT",
+  "author": "TerexitariusStomp",
+  "keywords": ["n8n-community-node-package", "mcp", "bounties", "agents"],
+  "repository": { "type": "git", "url": "https://github.com/TerexitariusStomp/widespread-bridge" },
+  "files": ["dist", "nodes"],
+  "main": "index.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": ["nodes/Widespread/Widespread.node.js"]
+  },
+  "devDependencies": {},
+  "peerDependencies": { "n8n-workflow": "*" }
+}
